@@ -1,0 +1,10 @@
+﻿@model List<Data>
+
+@foreach (var data in Model)
+{
+    <p>@data.Id</p>
+    <p>@data.Content</p>
+    <p>@data.CreatedOn</p>
+    <p>@data.LastModifiedOn</p>
+}
+
